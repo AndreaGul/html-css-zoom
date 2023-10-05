@@ -38,3 +38,61 @@
 /* /contenitore dei bottoni */
 
 /* ***** /header ****** */
+
+/* **** main **** */
+
+/* **** debug **** */
+
+/* debug della dimensione del contenitore dell'utente */
+.debug .box-utente {
+  height: 145px;
+  width: 245px;
+  background-color: white;
+}
+/* /debug della dimensione del contenitore dell'utente */
+
+/* **** /debug **** */
+
+/* dimensioni del contenitore di tutte le immagini degli utenti racchiusa nel viewport*/
+main {
+  height: 100%vh;
+  background-color: black;
+}
+/* /dimensioni del contenitore di tutte le immagini degli utenti racchiusa nel viewport*/
+
+/* contenitore di tutte le immagini */
+.container {
+  margin: 0 auto;
+  gap: 4px;
+  padding: 70px 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* /contenitore di tutte le immagini */
+
+/* ci permette di posizionare gli elementi in modo affiancato */
+.row {
+  display: flex;
+}
+/* /ci permette di posizionare gli elementi in modo affiancato */
+
+/* contenitore che contiene l'immagine, icona del microfono spento e il nome utente */
+.box-utente {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 5px 0;
+}
+/* /contenitore che contiene l'immagine, icona del microfono spento e il nome utente */
+
+/* caratteristiche del contenitore del nome utente */
+.nome-utente {
+  background-color: rgba(102, 113, 122, 0.7);
+  padding: 4px 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+/* /caratteristiche del contenitore del nome utente */
+
+/* **** main **** */
