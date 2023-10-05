@@ -1,0 +1,40 @@
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ***** common ****** */
+
+/* colore di default del testo */
+.default-color {
+  color: white;
+}
+/* /colore di default del testo */
+
+/* bottone di default */
+.botton-default {
+  padding: 4px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4a4a4a;
+  cursor: pointer;
+}
+/* /bottone di default */
+
+/* ***** /common ****** */
+
+/* ***** header ****** */
+
+/* contenitore dei bottoni */
+.botton-cantainer {
+  padding: 4px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+/* /contenitore dei bottoni */
+
+/* ***** /header ****** */
