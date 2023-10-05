@@ -24,6 +24,12 @@
 }
 /* /bottone di default */
 
+/* ci permette di posizionare gli elementi in modo affiancato */
+.row {
+  display: flex;
+}
+/* /ci permette di posizionare gli elementi in modo affiancato */
+
 /* ***** /common ****** */
 
 /* ***** header ****** */
@@ -70,12 +76,6 @@ main {
 }
 /* /contenitore di tutte le immagini */
 
-/* ci permette di posizionare gli elementi in modo affiancato */
-.row {
-  display: flex;
-}
-/* /ci permette di posizionare gli elementi in modo affiancato */
-
 /* contenitore che contiene l'immagine, icona del microfono spento e il nome utente */
 .box-utente {
   position: relative;
@@ -96,3 +96,33 @@ main {
 /* /caratteristiche del contenitore del nome utente */
 
 /* **** main **** */
+
+/* ***** footer ***** */
+
+.container-footer {
+  width: 100%vw;
+  height: 80px;
+  background-color: #222222;
+}
+
+.box-button {
+  text-align: center;
+}
+
+.container-footer .box-button,
+.icon {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.footer-row {
+  align-items: center;
+}
+
+.car-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+}
+
+/* ***** footer ***** */
