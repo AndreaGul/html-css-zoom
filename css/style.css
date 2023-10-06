@@ -21,6 +21,7 @@
   border-radius: 4px;
   background-color: #4a4a4a;
   cursor: pointer;
+  font-family: 'AR One Sans', sans-serif;
 }
 /* /bottone di default */
 
@@ -73,7 +74,7 @@ header {
 
 /* dimensioni del contenitore di tutte le immagini degli utenti racchiusa nel viewport*/
 main {
-  height: calc(100vh - 115px);
+  height: calc(100vh - 35px - 80px);
 
   overflow: auto;
 }
