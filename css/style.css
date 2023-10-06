@@ -34,8 +34,14 @@
 
 /* ***** header ****** */
 
+header {
+  height: 35px;
+  background-color: black;
+}
+
 /* contenitore dei bottoni */
 .botton-cantainer {
+  z-index: 1;
   padding: 4px;
   position: fixed;
   top: 0;
@@ -61,8 +67,9 @@
 
 /* dimensioni del contenitore di tutte le immagini degli utenti racchiusa nel viewport*/
 main {
-  height: 100%vh;
+  height: calc(100vh-115px);
   background-color: black;
+  overflow: auto;
 }
 /* /dimensioni del contenitore di tutte le immagini degli utenti racchiusa nel viewport*/
 
@@ -70,11 +77,17 @@ main {
 .container {
   margin: 0 auto;
   gap: 4px;
-  padding: 70px 80px;
+  padding: 25px 80px;
   flex-wrap: wrap;
   justify-content: center;
 }
 /* /contenitore di tutte le immagini */
+
+/* levo i pixel al di sotto dell'immagine */
+.box-utente img {
+  display: block;
+}
+/* /levo i pixel al di sotto dell'immagine */
 
 /* contenitore che contiene l'immagine, icona del microfono spento e il nome utente */
 .box-utente {
@@ -155,10 +168,13 @@ main {
 }
 /* /caratteristiche del bottone */
 
-.footer-left {
+/* posizionamento del end meeting a destra */
+.footer-right {
   text-align: end;
 }
+/* /posizionamento del end meeting a destra */
 
+/* caratteristiche del bottone end meeting */
 .button-end {
   height: calc(100% + 20px);
   width: 118px;
@@ -168,9 +184,12 @@ main {
   color: red;
   cursor: pointer;
 }
+/* /caratteristiche del bottone end meeting */
 
+/* cambio colore icona scare */
 .green-color {
   color: #4bc800;
 }
+/* /cambio colore icona scare */
 
 /* ***** footer ***** */
