@@ -32,11 +32,17 @@
 
 /* ***** /common ****** */
 
+body {
+  background-color: black;
+  height: 100vh;
+  font-size: 12px;
+  font-family: 'AR One Sans', sans-serif;
+}
+
 /* ***** header ****** */
 
 header {
   height: 35px;
-  background-color: black;
 }
 
 /* contenitore dei bottoni */
@@ -68,7 +74,7 @@ header {
 /* dimensioni del contenitore di tutte le immagini degli utenti racchiusa nel viewport*/
 main {
   height: calc(100vh - 115px);
-  background-color: black;
+
   overflow: auto;
 }
 /* /dimensioni del contenitore di tutte le immagini degli utenti racchiusa nel viewport*/
