@@ -76,7 +76,7 @@ header {
 main {
   height: calc(100vh - 35px - 80px);
 
-  overflow: auto;
+  overflow-y: auto;
 }
 /* /dimensioni del contenitore di tutte le immagini degli utenti racchiusa nel viewport*/
 
