@@ -153,11 +153,11 @@ main {
 }
 /* /grandezza dell'icona frecceta in su */
 
-/* posizionamento deigli elementi lungo l'asse orizontale */
+/* posizionamento degli elementi lungo l'asse orizontale */
 .footer-row {
   align-items: center;
 }
-/* /posizionamento deigli elementi lungo l'asse orizontale */
+/* /posizionamento degli elementi lungo l'asse orizontale */
 
 /* caratteristiche del bottone */
 .car-btn {
