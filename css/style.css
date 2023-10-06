@@ -99,30 +99,78 @@ main {
 
 /* ***** footer ***** */
 
+/* contenitore di tutte le icone */
 .container-footer {
   width: 100%vw;
   height: 80px;
   background-color: #222222;
+  padding: 10px;
+  justify-content: space-between;
 }
+/* contenitore di tutte le icone */
 
+/* grandezza dei contenitori a destra e sinistra del footer */
+.footer-small {
+  width: 30%;
+}
+/* /grandezza dei contenitori a destra e sinistra del footer */
+
+/* posiziona gli lementi del bottone in modo centrato */
 .box-button {
   text-align: center;
 }
+/* /posiziona gli lementi del bottone in modo centrato */
 
+/* spazio dato tra i bottoni e l'icona freccetta in su */
 .container-footer .box-button,
 .icon {
   margin: 0 10px;
+}
+/* /spazio dato tra i bottoni e l'icona freccetta in su */
+
+/* quando passi il mouse sopra appare licona della manina */
+.box-button button {
   cursor: pointer;
 }
+/* quando passi il mouse sopra appare licona della manina */
 
+/* grandezza dell'icona frecceta in su */
+.icon {
+  font-size: 12px;
+}
+/* /grandezza dell'icona frecceta in su */
+
+/* posizionamento deigli elementi lungo l'asse orizontale */
 .footer-row {
   align-items: center;
 }
+/* /posizionamento deigli elementi lungo l'asse orizontale */
 
+/* caratteristiche del bottone */
 .car-btn {
   background-color: transparent;
   border: none;
   font-size: 30px;
+  margin-bottom: 5px;
+}
+/* /caratteristiche del bottone */
+
+.footer-left {
+  text-align: end;
+}
+
+.button-end {
+  height: calc(100% + 20px);
+  width: 118px;
+  margin: -10px;
+  background-color: #4a4a4a;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
+
+.green-color {
+  color: #4bc800;
 }
 
 /* ***** footer ***** */
