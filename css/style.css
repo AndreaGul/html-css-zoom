@@ -67,7 +67,7 @@ header {
 
 /* dimensioni del contenitore di tutte le immagini degli utenti racchiusa nel viewport*/
 main {
-  height: calc(100vh-115px);
+  height: calc(100vh - 115px);
   background-color: black;
   overflow: auto;
 }
